@@ -1,0 +1,17 @@
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+.container {
+    max-width: 68em;
+}
+
+.preferences {
+	margin-top: 50px;
+}
+
+button:disabled:hover {
+    cursor: not-allowed;
+}

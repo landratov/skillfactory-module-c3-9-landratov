@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>C3.9</title>
+</head>
+<body>
+	<div class="vertical-center">
+        <div class="container">
+        	<div class="your-city">
+        		<label for="city">Введите название города: </label>
+        		<input type="text" name="city" id="city">
+        	</div>
+        	<form class="preferences">
+        		<div>
+        			<input type="checkbox" name="dont-call" id="dont-call">
+        			<label for="dont-call">не звонить мне</label>
+        		</div>
+        		<div>
+        			<input type="checkbox" name="service-agree" id="service-agree">
+        			<label for="service-agree">я прочитал и согласен с правилами пользования сервисом</label>
+        		</div>
+        		<div>
+        			<input type="checkbox" name="dont-choose" id="dont-choose">
+        			<label for="dont-choose">я не выбираю эту галочку</label>
+        		</div>
+        		<div>
+        			<input type="checkbox" name="internet-freedom" id="internet-freedom">
+        			<label for="internet-freedom">я подтверждаю, что свобода в интернете — это возможность выбирать галочки</label>
+        		</div>
+        		<div>
+        			<input type="checkbox" name="age-check" id="age-check">
+        			<label for="age-check">мне больше 12 лет</label>
+        		</div>
+        		<div>
+        			<input type="checkbox" name="well-done" id="well-done">
+        			<label for="well-done">это задание выполнено правильно</label>
+        		</div>
+
+        		<button class="btn btn-primary save-preferences">Сохранить</button>
+        	</form>
+        </div>
+    </div>
+	<script type="text/javascript" src="src/script.js"></script>
+</body>
+</html>
